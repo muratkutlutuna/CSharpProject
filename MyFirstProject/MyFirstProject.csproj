@@ -1,0 +1,70 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="day1.examples\**" />
+    <Compile Remove="day2.constructor\**" />
+    <Compile Remove="day2.encapsulation\**" />
+    <Compile Remove="day2.examples\**" />
+    <Compile Remove="day2.overloading\**" />
+    <Compile Remove="day3.abstractclasses\**" />
+    <Compile Remove="day3.inheritence\**" />
+    <Compile Remove="day3.interfaceexample\**" />
+    <Compile Remove="day3.overriding\**" />
+    <Compile Remove="day3.sampleproject\**" />
+    <Compile Remove="day4.basekeyword\**" />
+    <Compile Remove="day4.collections\**" />
+    <Compile Remove="day4.exceptionhandling\**" />
+    <Compile Remove="day4.statickeyword\**" />
+    <Compile Remove="day4.varkeyword\**" />
+    <Compile Remove="day5.linq\**" />
+    <EmbeddedResource Remove="day1.examples\**" />
+    <EmbeddedResource Remove="day2.constructor\**" />
+    <EmbeddedResource Remove="day2.encapsulation\**" />
+    <EmbeddedResource Remove="day2.examples\**" />
+    <EmbeddedResource Remove="day2.overloading\**" />
+    <EmbeddedResource Remove="day3.abstractclasses\**" />
+    <EmbeddedResource Remove="day3.inheritence\**" />
+    <EmbeddedResource Remove="day3.interfaceexample\**" />
+    <EmbeddedResource Remove="day3.overriding\**" />
+    <EmbeddedResource Remove="day3.sampleproject\**" />
+    <EmbeddedResource Remove="day4.basekeyword\**" />
+    <EmbeddedResource Remove="day4.collections\**" />
+    <EmbeddedResource Remove="day4.exceptionhandling\**" />
+    <EmbeddedResource Remove="day4.statickeyword\**" />
+    <EmbeddedResource Remove="day4.varkeyword\**" />
+    <EmbeddedResource Remove="day5.linq\**" />
+    <None Remove="day1.examples\**" />
+    <None Remove="day2.constructor\**" />
+    <None Remove="day2.encapsulation\**" />
+    <None Remove="day2.examples\**" />
+    <None Remove="day2.overloading\**" />
+    <None Remove="day3.abstractclasses\**" />
+    <None Remove="day3.inheritence\**" />
+    <None Remove="day3.interfaceexample\**" />
+    <None Remove="day3.overriding\**" />
+    <None Remove="day3.sampleproject\**" />
+    <None Remove="day4.basekeyword\**" />
+    <None Remove="day4.collections\**" />
+    <None Remove="day4.exceptionhandling\**" />
+    <None Remove="day4.statickeyword\**" />
+    <None Remove="day4.varkeyword\**" />
+    <None Remove="day5.linq\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="day5.delegates\DelegateClass.cs" />
+    <Compile Remove="day5.delegates\Program.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NPOI" Version="2.6.2" />
+  </ItemGroup>
+
+</Project>
